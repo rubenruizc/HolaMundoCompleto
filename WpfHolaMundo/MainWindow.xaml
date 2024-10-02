@@ -8,5 +8,21 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <Button Content="Botón" FontSize="10" Width="52" Click="Button_Click" HorizontalAlignment="Left" Margin="380,278,0,126"/>
+        <TextBlock Name ="labelSaludo" HorizontalAlignment="Left" Height="100" Margin="652,485,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="572"/>
+        <TextBox x:Name="anioTextBox" Margin="465,212,215,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="mesTextBox" HorizontalAlignment="Center" Margin="0,212,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="diaTextBox" HorizontalAlignment="Left" Margin="215,212,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="266,192,0,0" TextWrapping="Wrap" Text="Día" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,195,0,0" TextWrapping="Wrap" Text="Mes" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="514,194,0,0" TextWrapping="Wrap" Text="Año" VerticalAlignment="Top"/>
+        <TextBox x:Name="nombreTextBox" HorizontalAlignment="Left" Margin="215,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="apellidoTextBox" HorizontalAlignment="Left" Margin="465,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="253,114,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="503,114,0,0" TextWrapping="Wrap" Text="Apellido" VerticalAlignment="Top"/>
+
+
+
+
     </Grid>
 </Window>
